@@ -27,29 +27,35 @@ To try this out, first install [TouchDesigner](https://derivative.ca/download) a
 
 Ensure that the animations are moving by either pressing the 'Play' button on the bottom tab or simply pressing Spacebar.
 
-Now navigate your way to the right hand side of the workspace where you'll find the 'window5' operator. Please click the operator itself to open the properties, click on the 'Open/Close' tab, and then next to 'Open as Separate Window', simply click Open and the final view will be shown on a separate window. You can extend your screens such that on your main screen you will have TouchDesigner workspace open while on the projected screen, you will have the separate window.
-<img width="2832" height="1714" alt="Screenshot 2026-10-06 105948" src="https://github.com/user-attachments/assets/ce24555e-2e30-41d5-9589-b69af7f660bc" />
+Now navigate your way to the right hand side of the workspace where you'll find the window5 operator. Please click the operator itself to open the properties, click on the Open/Close tab, and then next to Open as Separate Window, simply click Open and the final view will be shown on a separate window. You can extend your screens such that on your main screen you will have the TouchDesigner workspace open while on the projected screen, you will have the separate window.
 
-In this project, we designed 4 different experiences for the user. To toggle between these experiences, click on the 'switch1' operator that is the second operator to the left of the 'window5' operator. 
-<img width="2850" height="1732" alt="Screenshot 2026-10-06 105926" src="https://github.com/user-attachments/assets/a5ef84df-a3c0-4705-bdac-4966486fd06f" />
-Here, you can move the index between 0-3 to select your desired experience.
+<p align="center"> <img src="https://github.com/user-attachments/assets/ce24555e-2e30-41d5-9589-b69af7f660bc" alt="TouchDesigner window5 operator" width="700"> </p>
+
+In this project, we designed 4 different experiences for the user. To toggle between these experiences, click on the switch1 operator that is the second operator to the left of the window5 operator.
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/a5ef84df-a3c0-4705-bdac-4966486fd06f" alt="TouchDesigner switch1 operator" width="700"> </p>
+
+Here, you can move the index between 0–3 to select your desired experience.
 
 ### First experience (Index 0): Still but zooming painting
-<img width="1260" height="710" alt="Screenshot 2026-10-06 105843" src="https://github.com/user-attachments/assets/698cc71c-0e02-4aab-92d3-5d7f6e1d2ab0" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/698cc71c-0e02-4aab-92d3-5d7f6e1d2ab0" alt="Still but zooming painting" width="600"> </p>
+
 Here, the painting will simply zoom in and out for the user to admire and initially become calm. Here, a soothing voice will also be playing in the background, softly telling you to focus on the screen.
-<img width="470" height="798" alt="image" src="https://github.com/user-attachments/assets/63b1218c-7a54-4446-bcdf-278e9e535451" />
+
+<p align="center"> <img src="https://github.com/user-attachments/assets/63b1218c-7a54-4446-bcdf-278e9e535451" alt="Soothing voice interface" width="200"> </p>
 
 ### Second experience (Index 1): Body in the water
-<img width="1264" height="708" alt="Screenshot 2026-10-06 105806" src="https://github.com/user-attachments/assets/eeb11b35-19d5-4346-9833-5eac149c6fb6" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/eeb11b35-19d5-4346-9833-5eac149c6fb6" alt="Body in the water" width="600"> </p>
+
 The camera will pick up the body movements. These movements affect the waters around the body, providing the user with a sense of control over their body whilst feeling immersed in the calmness of the water.
 
-
 ### Third experience (Index 2): Follow the bear!
-<img width="1264" height="710" alt="Screenshot 2026-10-06 105826" src="https://github.com/user-attachments/assets/9797efe5-98b5-4c46-9313-126d72662921" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/9797efe5-98b5-4c46-9313-126d72662921" alt="Follow the bear" width="600"> </p>
+
 This is a weird but fun one. Simply follow the exercises of the bear! The camera will detect and illustrate the full (stick-figure) body of the user so that the user can know that they are following along with the friendly bear.
 
 ### Fourth experience (Index 3): EMG Biofeedback in the water
-<img width="1264" height="712" alt="Screenshot 2026-10-06 105856" src="https://github.com/user-attachments/assets/6cfa832c-0010-4b09-a807-27092f7086b2" />
+<p align="center"> <img src="https://github.com/user-attachments/assets/6cfa832c-0010-4b09-a807-27092f7086b2" alt="EMG Biofeedback in the water" width="600"> </p>
 For this one specifically you will need:
 - Arduino microcontroller: I used [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3). Also you need a USB-A to USB-B cable to connect Arduino and computer. 
 - An Arduino-powered sensor. I used [Myoware 2.0 Muscle Sensor](https://myoware.com/products/muscle-sensor/).
