@@ -11,7 +11,7 @@ Over the course of a month, we four students from various disciplines and Europe
   <img src="https://github.com/user-attachments/assets/d71a8cdf-a106-4e39-858f-499f6498494d" width="30%" alt="image 3" />
 </div>
 
-See my [LinkedIn post](https://lnkd.in/p/g7G4DuDq) for more details or photos!
+See my [LinkedIn post](https://lnkd.in/p/g7G4DuDq) for more details or photos! Although I had never been enrolled full-time at an European university and had only been at one for a semester exchange, I am grateful that I was able to partake in this immersive event while being able to travel around a beautiful city in Paris, France.
 
 Future applications include potentially using Unity alongside TouchDesigner to create a richer, more immerse experience.
 
