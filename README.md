@@ -56,17 +56,20 @@ This is a weird but fun one. Simply follow the exercises of the bear! The camera
 
 ### Fourth experience (Index 3): EMG Biofeedback in the water
 <p align="center"> <img src="https://github.com/user-attachments/assets/6cfa832c-0010-4b09-a807-27092f7086b2" alt="EMG Biofeedback in the water" width="600"> </p>
+
 For this one specifically you will need:
-- Arduino microcontroller: I used [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3). Also you need a USB-A to USB-B cable to connect Arduino and computer. 
+- Arduino microcontroller: I used [Arduino Uno R3](https://docs.arduino.cc/hardware/uno-rev3/). Also you need a USB-A to USB-B cable to connect Arduino and computer. 
 - An Arduino-powered sensor. I used [Myoware 2.0 Muscle Sensor](https://myoware.com/products/muscle-sensor/).
 - Three wires to connect pins.
 
 #### Pin setup. 
 You need 3 wires for the following pins on the Arduino.
-The left side indicates the pins on the Arduino-powered sensor while the right side indicates the pins on the Arduino iself. To keep it properly in place, feel free to solder it.
+The left side indicates the pins on the Arduino-powered sensor while the right side indicates the pins on the Arduino iself:
 - ENV -> A0 (for muscle sensor readings)
 - GND -> GND
-- VIN -> 5V 
+- VIN -> 5V
+  
+To keep it properly in place, feel free to solder it.
 
 Then download the Arduino file `muscle.ino`. Ensure, with the Arduino and pins setup, that the code compiles correctly. Ensure that the port is set to COM5 (as it needs to be the same port as configured in the TouchDesigner file itself which is currently COM5, however you may change the port to your liking). Then after sticking the adhesives on the sensor, place the sensor on either your forearm or your shoulder, or really just any part of your body that feels some sort of tension. Now ensure that after running the code, you can see some numbers in the terminal that can change as you move, relax or tense in the part of the body where the sensor is on. 
 
